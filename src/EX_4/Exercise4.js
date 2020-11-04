@@ -31,6 +31,7 @@ window.addEventListener('load', function() {
                 par.style.borderStyle = "solid";
                 break;
             default:
+                par.style.borderWidth = "unset";
                 par.style.borderStyle = "unset";
                 break;
         }
