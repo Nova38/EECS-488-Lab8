@@ -18,15 +18,19 @@ window.addEventListener('load', function() {
         
         switch (border_width) {
             case 0:
+                par.style.borderWidth = "unset";
+                par.style.borderStyle = "unset";
+                break;
+            case 1:
                 par.style.borderWidth = "thin";
                 par.style.borderStyle = "solid";
                 break;
-            case 1:
+            case 2:
                 par.style.borderWidth = "medium";
                 par.style.borderStyle = "solid";
 
                 break;
-            case 2:
+            case 3:
                 par.style.borderWidth = "thick";
                 par.style.borderStyle = "solid";
                 break;
